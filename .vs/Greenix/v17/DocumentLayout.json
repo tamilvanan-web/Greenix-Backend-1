@@ -1,0 +1,757 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\controllers\\officercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\controllers\\officercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\services\\complaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\services\\complaintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F693B967-9790-4C52-8C07-70937B006B01}|Greenix.Application.UnitTests\\Greenix.Application.UnitTests.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application.unittests\\complaintservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F693B967-9790-4C52-8C07-70937B006B01}|Greenix.Application.UnitTests\\Greenix.Application.UnitTests.csproj|solutionrelative:greenix.application.unittests\\complaintservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\enums\\complaintstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\enums\\complaintstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\updatecomplaintstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\updatecomplaintstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\usercomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\usercomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\interfaces\\iofficerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\interfaces\\iofficerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\complaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\complaintdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\admin\\complaintlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\admin\\complaintlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\entities\\complaintimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\entities\\complaintimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\complaint\\createcomplaintrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\complaint\\createcomplaintrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\complaint\\complaintsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\complaint\\complaintsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\entities\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\entities\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C0CBC-DBF4-4FB5-943A-DE6BCACF74B2}|Greenix.Application\\Greenix.Application.csproj|solutionrelative:greenix.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC301854-902E-4A76-8C83-15DD8F2EF2E3}|Greenix.Shared\\Greenix.Shared.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.shared\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC301854-902E-4A76-8C83-15DD8F2EF2E3}|Greenix.Shared\\Greenix.Shared.csproj|solutionrelative:greenix.shared\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C642645F-C289-4A5D-9D66-EF1BB7F676CD}|Greenix.Infrastructure\\Greenix.Infrastructure.csproj|solutionrelative:greenix.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\migrations\\20260716065135_seeddepartmentsandcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\migrations\\20260716065135_seeddepartmentsandcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\common\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.api\\greenix.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C83F404D-336E-4D0A-91AB-1E2717DE5828}|Greenix.API\\Greenix.API.csproj|solutionrelative:greenix.api\\greenix.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.domain\\greenix.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C20F46C-1B43-4B14-A2FF-CC88435C9AA0}|Greenix.Domain\\Greenix.Domain.csproj|solutionrelative:greenix.domain\\greenix.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\migrations\\20260715142626_fixpendingchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\migrations\\20260715142626_fixpendingchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|c:\\users\\tamilvanan.m\\onedrive\\desktop\\github projects\\greenixx\\greenix.persistence\\migrations\\20260715142502_checkpendingchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{433A20CF-E0D4-4B1D-B323-6F18D04867FC}|Greenix.Persistence\\Greenix.Persistence.csproj|solutionrelative:greenix.persistence\\migrations\\20260715142502_checkpendingchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComplaintServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application.UnitTests\\ComplaintServiceTests.cs",
+              "RelativeDocumentMoniker": "Greenix.Application.UnitTests\\ComplaintServiceTests.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application.UnitTests\\ComplaintServiceTests.cs",
+              "RelativeToolTip": "Greenix.Application.UnitTests\\ComplaintServiceTests.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAywDQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T09:09:21.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfficerController.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\OfficerController.cs",
+              "RelativeDocumentMoniker": "Greenix.API\\Controllers\\OfficerController.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\OfficerController.cs",
+              "RelativeToolTip": "Greenix.API\\Controllers\\OfficerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwCwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:18:00.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserComplaintDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserComplaintDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\UserComplaintDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserComplaintDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\UserComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:12:12.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserDetailsDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\UserDetailsDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserDetailsDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\UserDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:11:11.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Greenix.API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Greenix.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwEUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:06:36.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Services\\AdminService.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\Services\\AdminService.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwIAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:19:35.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Greenix.Application\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:11:53.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComplaintService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Services\\ComplaintService.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\Services\\ComplaintService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Services\\ComplaintService.cs",
+              "RelativeToolTip": "Greenix.Application\\Services\\ComplaintService.cs",
+              "ViewState": "AgIAAJ4BAAAAAAAAAAAQwKgBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T09:09:50.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Greenix.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Greenix.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T09:30:42.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateComplaintStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\UpdateComplaintStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T04:52:50.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\Identity\\IdentityService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\Identity\\IdentityService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:12:08.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOfficerService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IOfficerService.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\Interfaces\\IOfficerService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IOfficerService.cs",
+              "RelativeToolTip": "Greenix.Application\\Interfaces\\IOfficerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:18:51.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ComplaintsController.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\ComplaintsController.cs",
+              "RelativeDocumentMoniker": "Greenix.API\\Controllers\\ComplaintsController.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Controllers\\ComplaintsController.cs",
+              "RelativeToolTip": "Greenix.API\\Controllers\\ComplaintsController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAALkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:20:15.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComplaintStatus.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Enums\\ComplaintStatus.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Enums\\ComplaintStatus.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Enums\\ComplaintStatus.cs",
+              "RelativeToolTip": "Greenix.Domain\\Enums\\ComplaintStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T17:11:02.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserListDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\UserListDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\UserListDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\UserListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T04:59:08.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T04:59:46.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Greenix.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T13:43:48.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComplaintListDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\ComplaintListDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\ComplaintListDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\ComplaintListDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\ComplaintListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:09:22.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:56:37.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ComplaintDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\ComplaintDetailsDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Admin\\ComplaintDetailsDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Admin\\ComplaintDetailsDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Admin\\ComplaintDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T04:48:02.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ComplaintSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Complaint\\ComplaintSummaryDto.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Complaint\\ComplaintSummaryDto.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Complaint\\ComplaintSummaryDto.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Complaint\\ComplaintSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:56:39.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ComplaintImage.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\ComplaintImage.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Entities\\ComplaintImage.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\ComplaintImage.cs",
+              "RelativeToolTip": "Greenix.Domain\\Entities\\ComplaintImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:56:45.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateComplaintRequest.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Complaint\\CreateComplaintRequest.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\DTOs\\Complaint\\CreateComplaintRequest.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\DTOs\\Complaint\\CreateComplaintRequest.cs",
+              "RelativeToolTip": "Greenix.Application\\DTOs\\Complaint\\CreateComplaintRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:56:40.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T13:41:19.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Complaint.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Entities\\Complaint.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Complaint.cs",
+              "RelativeToolTip": "Greenix.Domain\\Entities\\Complaint.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:43:48.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T13:47:05.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Greenix.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Greenix.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T15:13:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Shared\\Constants\\Roles.cs",
+              "RelativeDocumentMoniker": "Greenix.Shared\\Constants\\Roles.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Shared\\Constants\\Roles.cs",
+              "RelativeToolTip": "Greenix.Shared\\Constants\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:10:52.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Common\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Common\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Common\\AuditableEntity.cs",
+              "RelativeToolTip": "Greenix.Domain\\Common\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:45:16.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Program.cs",
+              "RelativeDocumentMoniker": "Greenix.API\\Program.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Program.cs",
+              "RelativeToolTip": "Greenix.API\\Program.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAYwMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:12:42.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "Greenix.Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T14:17:35.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Greenix.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\appsettings.json",
+              "RelativeToolTip": "Greenix.API\\appsettings.json",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-15T13:41:31.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260716065135_SeedDepartmentsAndCategories.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260716065135_SeedDepartmentsAndCategories.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Migrations\\20260716065135_SeedDepartmentsAndCategories.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260716065135_SeedDepartmentsAndCategories.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Migrations\\20260716065135_SeedDepartmentsAndCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:51:36.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Greenix.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:44:27.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Greenix.Infrastructure\\Identity\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeToolTip": "Greenix.Infrastructure\\Identity\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:14:44.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "Greenix.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:43:35.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:40:44.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:40:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T06:39:08.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Greenix.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\appsettings.Development.json",
+              "RelativeToolTip": "Greenix.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-15T14:33:12.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260715142626_FixPendingChanges.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260715142626_FixPendingChanges.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Migrations\\20260715142626_FixPendingChanges.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260715142626_FixPendingChanges.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Migrations\\20260715142626_FixPendingChanges.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:26:26.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260715142502_CheckPendingChanges.cs",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260715142502_CheckPendingChanges.cs",
+              "RelativeDocumentMoniker": "Greenix.Persistence\\Migrations\\20260715142502_CheckPendingChanges.cs",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Persistence\\Migrations\\20260715142502_CheckPendingChanges.cs",
+              "RelativeToolTip": "Greenix.Persistence\\Migrations\\20260715142502_CheckPendingChanges.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T14:25:02.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Greenix.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Greenix.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-15T14:14:38.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Greenix.API.csproj",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Greenix.API.csproj",
+              "RelativeDocumentMoniker": "Greenix.API\\Greenix.API.csproj",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.API\\Greenix.API.csproj",
+              "RelativeToolTip": "Greenix.API\\Greenix.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-15T13:44:31.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Greenix.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Greenix.Domain.csproj",
+              "RelativeDocumentMoniker": "Greenix.Domain\\Greenix.Domain.csproj",
+              "ToolTip": "C:\\Users\\TAMILVANAN.M\\OneDrive\\Desktop\\Github Projects\\GreeniXX\\Greenix.Domain\\Greenix.Domain.csproj",
+              "RelativeToolTip": "Greenix.Domain\\Greenix.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-15T13:41:58.184Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

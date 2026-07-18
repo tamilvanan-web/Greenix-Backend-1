@@ -1,0 +1,30 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: greenix-db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong@Password123
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+
+  greenix-api:
+    image: greenix-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: greenix-api-service
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      # Overrides default appsettings.json ConnectionStrings:DefaultConnection using double underscore notation
+      - ConnectionStrings__DefaultConnection=Server=sql-server;Database=GreenixAPI;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
+    depends_on:
+      - sql-server
+
+volumes:
+  mssql-data:

@@ -1,0 +1,263 @@
+2026-07-17 21:50:02.610 +05:30 [INF] ==================================================================
+2026-07-17 21:50:02.813 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 21:50:02.822 +05:30 [INF] Recipient: officer@greenix.com
+2026-07-17 21:50:02.834 +05:30 [INF] Subject:   Welcome to Greenix - Verify your Email
+2026-07-17 21:50:02.841 +05:30 [INF] Body Content:
+Hello Greenix Officer,
+
+Thank you for signing up to Greenix! Please confirm your registration by providing the following token in the application:
+
+Verification Token: CfDJ8IgMtb12Q95Ejy79HWF6Y4jLcc/jkAc2hZyPhdqmoGhb7lyBL22/2iqKd6BFjDZWsBuQ+bfgx1yyV05hz5vHEwAKvxVPxXgsDTDB2ALkdPRbQz19WoFL7LGYyCf/Q5RaR+56x2294g2ZdKx6t3/uqxOD6LP0rRCi3PK/X8NRSr4bc6E4mFzrR/IJr2uW2lntIqKclTtRwMgXsMAchXJmABlqgKZklbZP+4lBoN2WeRd9+9rITttxOIxtqQblc7DFsA==
+
+Together for a cleaner, greener city.
+2026-07-17 21:50:02.848 +05:30 [INF] ==================================================================
+2026-07-17 21:54:17.622 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-07-17 21:56:21.043 +05:30 [INF] ==================================================================
+2026-07-17 21:56:21.056 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 21:56:21.072 +05:30 [INF] Recipient: worker@greenix.com
+2026-07-17 21:56:21.088 +05:30 [INF] Subject:   Welcome to Greenix - Verify your Email
+2026-07-17 21:56:21.105 +05:30 [INF] Body Content:
+Hello Greenix Worker,
+
+Thank you for signing up to Greenix! Please confirm your registration by providing the following token in the application:
+
+Verification Token: CfDJ8IgMtb12Q95Ejy79HWF6Y4glZk4tFc0/Y5LL0ImMF0GDjcf+hBvhqJcqddB5hGX6FNwn79+6vTmoCGip80IbhYnt7rz0OFAAvSyCG+vMB+2FPEJJZPmHnf/7dEvn75f4JzG1rPXsNSmjpfgJbuLyYCaLB6aPn5H6gXMh+1oyK3OsUWDVgqhbNTJSc11l+oBDXe3f6bKXBJT52j1iZP8mk+TeFDmm68lgRnWwFf4jPeoS7Z/llRdjYtIv6C3XALzhJw==
+
+Together for a cleaner, greener city.
+2026-07-17 21:56:21.127 +05:30 [INF] ==================================================================
+2026-07-17 22:03:45.666 +05:30 [INF] ==================================================================
+2026-07-17 22:03:45.678 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:03:45.689 +05:30 [INF] Recipient: tamilvanan@gmail.com
+2026-07-17 22:03:45.697 +05:30 [INF] Subject:   Welcome to Greenix - Verify your Email
+2026-07-17 22:03:45.702 +05:30 [INF] Body Content:
+Hello Tamil vanan,
+
+Thank you for signing up to Greenix! Please confirm your registration by providing the following token in the application:
+
+Verification Token: CfDJ8IgMtb12Q95Ejy79HWF6Y4jjo6rRUA1S3NFeY2+KZ4giNwz0IycXY7sEQR+Vtxe1iJJ75cJl9zKj58JZ/xWRhbjWgIFU7g/S/4hgM6KjzUw/rcER/AJQIAsdR9H2bO76Wqu64OyJ6MJnqeciRNqEV+8Vvr/6VBmoqXo2K6vRDFn1sVjDV8qOQs+sEDL4zg2eqG0XigMgHRt5pobBlKybOLPALJbOiX0Z0N+/BMc7h4RczVg6YcylGN/jG4IEQzP3rg==
+
+Together for a cleaner, greener city.
+2026-07-17 22:03:45.709 +05:30 [INF] ==================================================================
+2026-07-17 22:05:56.202 +05:30 [INF] ==================================================================
+2026-07-17 22:05:56.206 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:05:56.210 +05:30 [INF] Recipient: tamilvanan@gmail.com
+2026-07-17 22:05:56.215 +05:30 [INF] Subject:   Greenix - Complaint Submitted: GRX-20260717-25D3
+2026-07-17 22:05:56.219 +05:30 [INF] Body Content:
+Dear Tamil vanan,
+
+Your civic grievance has been successfully recorded on the Greenix platform.
+
+Complaint Number: GRX-20260717-25D3
+Description: last two days in my village there are no current , so fix the problem from my village
+Category: Water & Sewage
+
+Track status updates through your dashboard.
+2026-07-17 22:05:56.224 +05:30 [INF] ==================================================================
+2026-07-17 22:09:20.920 +05:30 [ERR] Failed executing DbCommand (35,152ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CategoryId], [s].[CitizenId], [s].[ComplaintNumber], [s].[CreatedAt], [s].[Description], [s].[Latitude], [s].[Longitude], [s].[Priority], [s].[Status], [s].[UpdatedAt], [s].[Id0], [s].[AccessFailedCount], [s].[ConcurrencyStamp], [s].[CreatedAt0], [s].[DepartmentId], [s].[Email], [s].[EmailConfirmed], [s].[FullName], [s].[IsActive], [s].[LockoutEnabled], [s].[LockoutEnd], [s].[NormalizedEmail], [s].[NormalizedUserName], [s].[PasswordHash], [s].[PhoneNumber], [s].[PhoneNumberConfirmed], [s].[RefreshToken], [s].[RefreshTokenExpiryTime], [s].[SecurityStamp], [s].[TwoFactorEnabled], [s].[UserName], [s].[Id1], [s].[CreatedAt1], [s].[CreatedBy], [s].[DepartmentId0], [s].[Description0], [s].[Name], [s].[UpdatedAt0], [s].[UpdatedBy], [s].[Id2], [s].[CreatedAt2], [s].[CreatedBy0], [s].[Description1], [s].[Name0], [s].[UpdatedAt1], [s].[UpdatedBy0], [s].[Id3], [s].[Id4], [s0].[Id], [s0].[ComplaintId], [s0].[ImageType], [s0].[ImageUrl], [s0].[UploadedAt], [s0].[UploadedById], [s0].[Id0], [s0].[AccessFailedCount], [s0].[ConcurrencyStamp], [s0].[CreatedAt], [s0].[DepartmentId], [s0].[Email], [s0].[EmailConfirmed], [s0].[FullName], [s0].[IsActive], [s0].[LockoutEnabled], [s0].[LockoutEnd], [s0].[NormalizedEmail], [s0].[NormalizedUserName], [s0].[PasswordHash], [s0].[PhoneNumber], [s0].[PhoneNumberConfirmed], [s0].[RefreshToken], [s0].[RefreshTokenExpiryTime], [s0].[SecurityStamp], [s0].[TwoFactorEnabled], [s0].[UserName], [s1].[Id], [s1].[AssignedAt], [s1].[AssignedById], [s1].[ComplaintId], [s1].[Notes], [s1].[WorkerId], [s1].[Id0], [s1].[AccessFailedCount], [s1].[ConcurrencyStamp], [s1].[CreatedAt], [s1].[DepartmentId], [s1].[Email], [s1].[EmailConfirmed], [s1].[FullName], [s1].[IsActive], [s1].[LockoutEnabled], [s1].[LockoutEnd], [s1].[NormalizedEmail], [s1].[NormalizedUserName], [s1].[PasswordHash], [s1].[PhoneNumber], [s1].[PhoneNumberConfirmed], [s1].[RefreshToken], [s1].[RefreshTokenExpiryTime], [s1].[SecurityStamp], [s1].[TwoFactorEnabled], [s1].[UserName], [s1].[Id1], [s1].[AccessFailedCount0], [s1].[ConcurrencyStamp0], [s1].[CreatedAt0], [s1].[DepartmentId0], [s1].[Email0], [s1].[EmailConfirmed0], [s1].[FullName0], [s1].[IsActive0], [s1].[LockoutEnabled0], [s1].[LockoutEnd0], [s1].[NormalizedEmail0], [s1].[NormalizedUserName0], [s1].[PasswordHash0], [s1].[PhoneNumber0], [s1].[PhoneNumberConfirmed0], [s1].[RefreshToken0], [s1].[RefreshTokenExpiryTime0], [s1].[SecurityStamp0], [s1].[TwoFactorEnabled0], [s1].[UserName0], [s2].[Id], [s2].[ChangedAt], [s2].[ChangedById], [s2].[Comments], [s2].[ComplaintId], [s2].[Status], [s2].[Id0], [s2].[AccessFailedCount], [s2].[ConcurrencyStamp], [s2].[CreatedAt], [s2].[DepartmentId], [s2].[Email], [s2].[EmailConfirmed], [s2].[FullName], [s2].[IsActive], [s2].[LockoutEnabled], [s2].[LockoutEnd], [s2].[NormalizedEmail], [s2].[NormalizedUserName], [s2].[PasswordHash], [s2].[PhoneNumber], [s2].[PhoneNumberConfirmed], [s2].[RefreshToken], [s2].[RefreshTokenExpiryTime], [s2].[SecurityStamp], [s2].[TwoFactorEnabled], [s2].[UserName], [s].[CitizenId0], [s].[Comments], [s].[ComplaintId], [s].[CreatedAt3], [s].[Rating], [s].[AccessFailedCount0], [s].[ConcurrencyStamp0], [s].[CreatedAt4], [s].[DepartmentId1], [s].[Email0], [s].[EmailConfirmed0], [s].[FullName0], [s].[IsActive0], [s].[LockoutEnabled0], [s].[LockoutEnd0], [s].[NormalizedEmail0], [s].[NormalizedUserName0], [s].[PasswordHash0], [s].[PhoneNumber0], [s].[PhoneNumberConfirmed0], [s].[RefreshToken0], [s].[RefreshTokenExpiryTime0], [s].[SecurityStamp0], [s].[TwoFactorEnabled0], [s].[UserName0]
+FROM (
+    SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CitizenId], [c].[ComplaintNumber], [c].[CreatedAt], [c].[Description], [c].[Latitude], [c].[Longitude], [c].[Priority], [c].[Status], [c].[UpdatedAt], [a].[Id] AS [Id0], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt] AS [CreatedAt0], [a].[DepartmentId], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsActive], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpiryTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [c0].[Id] AS [Id1], [c0].[CreatedAt] AS [CreatedAt1], [c0].[CreatedBy], [c0].[DepartmentId] AS [DepartmentId0], [c0].[Description] AS [Description0], [c0].[Name], [c0].[UpdatedAt] AS [UpdatedAt0], [c0].[UpdatedBy], [d].[Id] AS [Id2], [d].[CreatedAt] AS [CreatedAt2], [d].[CreatedBy] AS [CreatedBy0], [d].[Description] AS [Description1], [d].[Name] AS [Name0], [d].[UpdatedAt] AS [UpdatedAt1], [d].[UpdatedBy] AS [UpdatedBy0], [f].[Id] AS [Id3], [f].[CitizenId] AS [CitizenId0], [f].[Comments], [f].[ComplaintId], [f].[CreatedAt] AS [CreatedAt3], [f].[Rating], [a0].[Id] AS [Id4], [a0].[AccessFailedCount] AS [AccessFailedCount0], [a0].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a0].[CreatedAt] AS [CreatedAt4], [a0].[DepartmentId] AS [DepartmentId1], [a0].[Email] AS [Email0], [a0].[EmailConfirmed] AS [EmailConfirmed0], [a0].[FullName] AS [FullName0], [a0].[IsActive] AS [IsActive0], [a0].[LockoutEnabled] AS [LockoutEnabled0], [a0].[LockoutEnd] AS [LockoutEnd0], [a0].[NormalizedEmail] AS [NormalizedEmail0], [a0].[NormalizedUserName] AS [NormalizedUserName0], [a0].[PasswordHash] AS [PasswordHash0], [a0].[PhoneNumber] AS [PhoneNumber0], [a0].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a0].[RefreshToken] AS [RefreshToken0], [a0].[RefreshTokenExpiryTime] AS [RefreshTokenExpiryTime0], [a0].[SecurityStamp] AS [SecurityStamp0], [a0].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a0].[UserName] AS [UserName0]
+    FROM [Complaints] AS [c]
+    INNER JOIN [AspNetUsers] AS [a] ON [c].[CitizenId] = [a].[Id]
+    INNER JOIN [Categories] AS [c0] ON [c].[CategoryId] = [c0].[Id]
+    INNER JOIN [Departments] AS [d] ON [c0].[DepartmentId] = [d].[Id]
+    LEFT JOIN [Feedbacks] AS [f] ON [c].[Id] = [f].[ComplaintId]
+    LEFT JOIN [AspNetUsers] AS [a0] ON [f].[CitizenId] = [a0].[Id]
+    WHERE [c].[Id] = @__id_0
+) AS [s]
+LEFT JOIN (
+    SELECT [c1].[Id], [c1].[ComplaintId], [c1].[ImageType], [c1].[ImageUrl], [c1].[UploadedAt], [c1].[UploadedById], [a1].[Id] AS [Id0], [a1].[AccessFailedCount], [a1].[ConcurrencyStamp], [a1].[CreatedAt], [a1].[DepartmentId], [a1].[Email], [a1].[EmailConfirmed], [a1].[FullName], [a1].[IsActive], [a1].[LockoutEnabled], [a1].[LockoutEnd], [a1].[NormalizedEmail], [a1].[NormalizedUserName], [a1].[PasswordHash], [a1].[PhoneNumber], [a1].[PhoneNumberConfirmed], [a1].[RefreshToken], [a1].[RefreshTokenExpiryTime], [a1].[SecurityStamp], [a1].[TwoFactorEnabled], [a1].[UserName]
+    FROM [ComplaintImages] AS [c1]
+    INNER JOIN [AspNetUsers] AS [a1] ON [c1].[UploadedById] = [a1].[Id]
+) AS [s0] ON [s].[Id] = [s0].[ComplaintId]
+LEFT JOIN (
+    SELECT [w].[Id], [w].[AssignedAt], [w].[AssignedById], [w].[ComplaintId], [w].[Notes], [w].[WorkerId], [a2].[Id] AS [Id0], [a2].[AccessFailedCount], [a2].[ConcurrencyStamp], [a2].[CreatedAt], [a2].[DepartmentId], [a2].[Email], [a2].[EmailConfirmed], [a2].[FullName], [a2].[IsActive], [a2].[LockoutEnabled], [a2].[LockoutEnd], [a2].[NormalizedEmail], [a2].[NormalizedUserName], [a2].[PasswordHash], [a2].[PhoneNumber], [a2].[PhoneNumberConfirmed], [a2].[RefreshToken], [a2].[RefreshTokenExpiryTime], [a2].[SecurityStamp], [a2].[TwoFactorEnabled], [a2].[UserName], [a3].[Id] AS [Id1], [a3].[AccessFailedCount] AS [AccessFailedCount0], [a3].[ConcurrencyStamp] AS [ConcurrencyStamp0], [a3].[CreatedAt] AS [CreatedAt0], [a3].[DepartmentId] AS [DepartmentId0], [a3].[Email] AS [Email0], [a3].[EmailConfirmed] AS [EmailConfirmed0], [a3].[FullName] AS [FullName0], [a3].[IsActive] AS [IsActive0], [a3].[LockoutEnabled] AS [LockoutEnabled0], [a3].[LockoutEnd] AS [LockoutEnd0], [a3].[NormalizedEmail] AS [NormalizedEmail0], [a3].[NormalizedUserName] AS [NormalizedUserName0], [a3].[PasswordHash] AS [PasswordHash0], [a3].[PhoneNumber] AS [PhoneNumber0], [a3].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed0], [a3].[RefreshToken] AS [RefreshToken0], [a3].[RefreshTokenExpiryTime] AS [RefreshTokenExpiryTime0], [a3].[SecurityStamp] AS [SecurityStamp0], [a3].[TwoFactorEnabled] AS [TwoFactorEnabled0], [a3].[UserName] AS [UserName0]
+    FROM [WorkerAssignments] AS [w]
+    INNER JOIN [AspNetUsers] AS [a2] ON [w].[WorkerId] = [a2].[Id]
+    INNER JOIN [AspNetUsers] AS [a3] ON [w].[AssignedById] = [a3].[Id]
+) AS [s1] ON [s].[Id] = [s1].[ComplaintId]
+LEFT JOIN (
+    SELECT [c2].[Id], [c2].[ChangedAt], [c2].[ChangedById], [c2].[Comments], [c2].[ComplaintId], [c2].[Status], [a4].[Id] AS [Id0], [a4].[AccessFailedCount], [a4].[ConcurrencyStamp], [a4].[CreatedAt], [a4].[DepartmentId], [a4].[Email], [a4].[EmailConfirmed], [a4].[FullName], [a4].[IsActive], [a4].[LockoutEnabled], [a4].[LockoutEnd], [a4].[NormalizedEmail], [a4].[NormalizedUserName], [a4].[PasswordHash], [a4].[PhoneNumber], [a4].[PhoneNumberConfirmed], [a4].[RefreshToken], [a4].[RefreshTokenExpiryTime], [a4].[SecurityStamp], [a4].[TwoFactorEnabled], [a4].[UserName]
+    FROM [ComplaintStatusHistory] AS [c2]
+    INNER JOIN [AspNetUsers] AS [a4] ON [c2].[ChangedById] = [a4].[Id]
+) AS [s2] ON [s].[Id] = [s2].[ComplaintId]
+ORDER BY [s].[Id], [s].[Id0], [s].[Id1], [s].[Id2], [s].[Id3], [s].[Id4], [s0].[Id], [s0].[Id0], [s1].[Id], [s1].[Id0], [s1].[Id1], [s2].[Id]
+2026-07-17 22:09:21.083 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Greenix.Persistence.Context.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:36dd18e7-bcee-4b4e-ab97-daec5da0bec2
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:36dd18e7-bcee-4b4e-ab97-daec5da0bec2
+Error Number:-2,State:0,Class:11
+2026-07-17 22:09:57.992 +05:30 [ERR] An unhandled exception occurred during request execution. CorrelationId: 0HNN43RT5FPNE:00000001
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Greenix.Application.Services.ComplaintService.GetComplaintByIdAsync(Int32 id, String userId, String role) in C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Application\Services\ComplaintService.cs:line 101
+   at Greenix.API.Controllers.ComplaintsController.GetById(Int32 id) in C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.API\Controllers\ComplaintsController.cs:line 61
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Greenix.API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.API\Middlewares\ExceptionMiddleware.cs:line 30
+ClientConnectionId:36dd18e7-bcee-4b4e-ab97-daec5da0bec2
+Error Number:-2,State:0,Class:11
+2026-07-17 22:18:30.625 +05:30 [INF] ==================================================================
+2026-07-17 22:18:30.775 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:18:30.782 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:18:30.797 +05:30 [INF] Subject:   Welcome to Greenix - Verify your Email
+2026-07-17 22:18:30.807 +05:30 [INF] Body Content:
+Hello sandy,
+
+Thank you for signing up to Greenix! Please confirm your registration by providing the following token in the application:
+
+Verification Token: CfDJ8IgMtb12Q95Ejy79HWF6Y4gyjgyhYGkxAeTxzsGWwHkvEAxnbm9DrC4L3Q1HP1RtDJ37NxKUQO+SaZdPLBH36FAFBHUiZZfMXB0h1upaWpvkglfwDshXHj3IM1VmfhWtqYkUWplenOHcIWJHyu2MPMrGrRZHRehpoEBoFwMvDHkX+sxb45Y1753RGvRF2h9iL60PSLY0gKdmZc7AZ5SAlL+oAICu3T7oYHmpkGdmu318t/PMeJC/RR6zKQNMGWxmDA==
+
+Together for a cleaner, greener city.
+2026-07-17 22:18:30.819 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.418 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.418 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.418 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.425 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:19:47.448 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:19:47.443 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:19:47.434 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:19:47.475 +05:30 [INF] Subject:   Greenix - Complaint Submitted: GRX-20260717-5E38
+2026-07-17 22:19:47.478 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:19:47.483 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:19:47.492 +05:30 [INF] Body Content:
+Dear sandy,
+
+Your civic grievance has been successfully recorded on the Greenix platform.
+
+Complaint Number: GRX-20260717-5E38
+Description: Please clean the unwanted things in road side
+Category: Sanitation & Waste
+
+Track status updates through your dashboard.
+2026-07-17 22:19:47.500 +05:30 [INF] Subject:   Greenix - Complaint Submitted: GRX-20260717-4238
+2026-07-17 22:19:47.507 +05:30 [INF] Subject:   Greenix - Complaint Submitted: GRX-20260717-D5EC
+2026-07-17 22:19:47.524 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.527 +05:30 [INF] Body Content:
+Dear sandy,
+
+Your civic grievance has been successfully recorded on the Greenix platform.
+
+Complaint Number: GRX-20260717-4238
+Description: Please clean the unwanted things in road side
+Category: Sanitation & Waste
+
+Track status updates through your dashboard.
+2026-07-17 22:19:47.532 +05:30 [INF] Body Content:
+Dear sandy,
+
+Your civic grievance has been successfully recorded on the Greenix platform.
+
+Complaint Number: GRX-20260717-D5EC
+Description: Please clean the unwanted things in road side
+Category: Sanitation & Waste
+
+Track status updates through your dashboard.
+2026-07-17 22:19:47.546 +05:30 [INF] ==================================================================
+2026-07-17 22:19:47.554 +05:30 [INF] ==================================================================
+2026-07-17 22:19:48.056 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-07-17 22:19:48.704 +05:30 [INF] ==================================================================
+2026-07-17 22:19:48.708 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:19:48.713 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:19:48.717 +05:30 [INF] Subject:   Greenix - Complaint Submitted: GRX-20260717-3822
+2026-07-17 22:19:48.747 +05:30 [INF] Body Content:
+Dear sandy,
+
+Your civic grievance has been successfully recorded on the Greenix platform.
+
+Complaint Number: GRX-20260717-3822
+Description: Please clean the unwanted things in road side
+Category: Sanitation & Waste
+
+Track status updates through your dashboard.
+2026-07-17 22:19:48.750 +05:30 [INF] ==================================================================
+2026-07-17 22:28:47.566 +05:30 [INF] ==================================================================
+2026-07-17 22:28:47.596 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:28:47.603 +05:30 [INF] Recipient: worker@greenix.com
+2026-07-17 22:28:47.610 +05:30 [INF] Subject:   Greenix - New Task Assigned: GRX-20260717-3822
+2026-07-17 22:28:47.616 +05:30 [INF] Body Content:
+Dear Greenix Worker,
+
+You have been assigned a new task on the Greenix platform.
+
+Complaint Number: GRX-20260717-3822
+Description: Please clean the unwanted things in road side
+Priority: High
+Location Coordinates: Lat 13.034375, Lon 80.171433
+Notes: Please clean the roadside garbage.
+2026-07-17 22:28:47.623 +05:30 [INF] ==================================================================
+2026-07-17 22:29:12.706 +05:30 [INF] ==================================================================
+2026-07-17 22:29:12.715 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:29:12.724 +05:30 [INF] Recipient: worker@greenix.com
+2026-07-17 22:29:12.742 +05:30 [INF] Subject:   Greenix - New Task Assigned: GRX-20260717-3822
+2026-07-17 22:29:12.762 +05:30 [INF] Body Content:
+Dear Greenix Worker,
+
+You have been assigned a new task on the Greenix platform.
+
+Complaint Number: GRX-20260717-3822
+Description: Please clean the unwanted things in road side
+Priority: High
+Location Coordinates: Lat 13.034375, Lon 80.171433
+Notes: Please clean the roadside garbage.
+2026-07-17 22:29:12.777 +05:30 [INF] ==================================================================
+2026-07-17 22:30:35.214 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-07-17 22:55:37.399 +05:30 [INF] ==================================================================
+2026-07-17 22:55:37.419 +05:30 [INF] EMAIL TRANSMISSION DISPATCHED:
+2026-07-17 22:55:37.423 +05:30 [INF] Recipient: sandy@gmail.com
+2026-07-17 22:55:37.426 +05:30 [INF] Subject:   Greenix - Status Update: GRX-20260717-3822
+2026-07-17 22:55:37.428 +05:30 [INF] Body Content:
+Dear sandy,
+
+The status of your complaint GRX-20260717-3822 has been updated to: WorkInProgress.
+
+Comments: i will complete the work quickly
+2026-07-17 22:55:37.432 +05:30 [INF] ==================================================================

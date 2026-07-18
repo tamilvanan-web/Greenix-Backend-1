@@ -1,0 +1,11 @@
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\bin\Debug\net9.0\Greenix.Shared.deps.json
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\bin\Debug\net9.0\Greenix.Shared.dll
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\bin\Debug\net9.0\Greenix.Shared.pdb
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.AssemblyInfoInputs.cache
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.AssemblyInfo.cs
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.csproj.CoreCompileInputs.cache
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.dll
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\refint\Greenix.Shared.dll
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\Greenix.Shared.pdb
+C:\Users\TAMILVANAN.M\OneDrive\Desktop\Github Projects\GreeniXX\Greenix.Shared\obj\Debug\net9.0\ref\Greenix.Shared.dll
