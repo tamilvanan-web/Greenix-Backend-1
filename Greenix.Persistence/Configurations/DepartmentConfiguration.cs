@@ -29,7 +29,7 @@ namespace Greenix.Persistence.Configurations
                     Id = 1,
                     Name = "Sanitation",
                     Description = "Sanitation and waste management",
-                    CreatedAt = new DateTime(2026, 1, 1),
+                    CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc),
                     CreatedBy = "System"
                 },
                 new Department
@@ -37,7 +37,7 @@ namespace Greenix.Persistence.Configurations
                     Id = 2,
                     Name = "Water & Sewage",
                     Description = "Water supply and sewage management",
-                    CreatedAt = new DateTime(2026, 1, 1),
+                    CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc),
                     CreatedBy = "System"
                 }
             );

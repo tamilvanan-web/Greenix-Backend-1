@@ -15,10 +15,13 @@ namespace Greenix.Persistence
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString,
-                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+                options.UseNpgsql(
+                    connectionString,
+                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
+                ));
 
-            services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+            services.AddScoped<IApplicationDbContext>(provider =>
+                provider.GetRequiredService<ApplicationDbContext>());
 
             services.AddDataProtection();
 
