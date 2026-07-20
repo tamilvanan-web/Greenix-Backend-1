@@ -7,20 +7,16 @@ using Greenix.Infrastructure;
 using Greenix.Infrastructure.Identity;
 using Greenix.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using System;
 using System.Text;
 
-// Setup Bootstrap Logger
+// Bootstrap Logger
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .CreateBootstrapLogger();
@@ -35,19 +31,24 @@ try
     Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
     Console.WriteLine("===============================");
 
-    // 1. Serilog Setup
-    builder.Host.UseSerilog((context, services, configuration) => configuration
-        .ReadFrom.Configuration(context.Configuration)
-        .ReadFrom.Services(services)
-        .Enrich.FromLogContext());
 
-    // 2. Register Controllers
+    // Serilog
+    builder.Host.UseSerilog((context, services, configuration) =>
+        configuration
+            .ReadFrom.Configuration(context.Configuration)
+            .ReadFrom.Services(services)
+            .Enrich.FromLogContext());
+
+
+    // Controllers
     builder.Services.AddControllers();
 
-    // 3. Register Health Checks
+
+    // Health Checks
     builder.Services.AddHealthChecks();
 
-    // 4. Register API Versioning
+
+    // API Versioning
     builder.Services.AddApiVersioning(options =>
     {
         options.AssumeDefaultVersionWhenUnspecified = true;
@@ -56,126 +57,181 @@ try
         options.ApiVersionReader = new UrlSegmentApiVersionReader();
     });
 
-    // 5. Register Application Layer Services
+
+    // Application Layer
     builder.Services.AddApplicationServices();
 
-    // 6. Register Persistence Layer
+
+    // Persistence Layer
     builder.Services.AddPersistenceServices(builder.Configuration);
 
-    // 7. Register Infrastructure Layer
+
+    // Infrastructure Layer
     builder.Services.AddInfrastructureServices(builder.Configuration);
 
-    // 8. Configure JWT Authentication
-    var jwtSettingsSecret = builder.Configuration["JwtSettings:Secret"]
+
+
+    // JWT Configuration
+    var jwtSettingsSecret =
+        builder.Configuration["JwtSettings:Secret"]
         ?? throw new InvalidOperationException("JWT Secret not configured.");
 
-    var jwtSettingsIssuer = builder.Configuration["JwtSettings:Issuer"];
-    var jwtSettingsAudience = builder.Configuration["JwtSettings:Audience"];
+    var jwtSettingsIssuer =
+        builder.Configuration["JwtSettings:Issuer"];
+
+    var jwtSettingsAudience =
+        builder.Configuration["JwtSettings:Audience"];
+
 
     builder.Services.AddAuthentication(options =>
     {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultAuthenticateScheme =
+            JwtBearerDefaults.AuthenticationScheme;
+
+        options.DefaultChallengeScheme =
+            JwtBearerDefaults.AuthenticationScheme;
     })
     .AddJwtBearer(options =>
     {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = jwtSettingsIssuer,
-            ValidAudience = jwtSettingsAudience,
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(jwtSettingsSecret)),
-            ClockSkew = TimeSpan.Zero
-        };
+        options.TokenValidationParameters =
+            new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+
+                ValidIssuer = jwtSettingsIssuer,
+                ValidAudience = jwtSettingsAudience,
+
+                IssuerSigningKey =
+                    new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(jwtSettingsSecret)),
+
+                ClockSkew = TimeSpan.Zero
+            };
     });
 
-    // 9. Register Swagger
+
+
+    // Swagger
     builder.Services.AddEndpointsApiExplorer();
 
     builder.Services.AddSwaggerGen(options =>
     {
-        options.SwaggerDoc("v1", new OpenApiInfo
-        {
-            Version = "v1",
-            Title = "Greenix Civic Management API",
-            Description = "Enterprise REST services for Smart Civic Complaint Management"
-        });
-
-        options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-        {
-            Name = "Authorization",
-            Type = SecuritySchemeType.ApiKey,
-            Scheme = "Bearer",
-            BearerFormat = "JWT",
-            In = ParameterLocation.Header,
-            Description = "Enter: Bearer {your JWT token}"
-        });
-
-        options.AddSecurityRequirement(new OpenApiSecurityRequirement
-        {
+        options.SwaggerDoc("v1",
+            new OpenApiInfo
             {
-                new OpenApiSecurityScheme
+                Version = "v1",
+                Title = "Greenix Civic Management API",
+                Description =
+                "Enterprise REST services for Smart Civic Complaint Management"
+            });
+
+
+        options.AddSecurityDefinition("Bearer",
+            new OpenApiSecurityScheme
+            {
+                Name = "Authorization",
+                Type = SecuritySchemeType.ApiKey,
+                Scheme = "Bearer",
+                BearerFormat = "JWT",
+                In = ParameterLocation.Header,
+                Description =
+                "Enter: Bearer {your JWT token}"
+            });
+
+
+        options.AddSecurityRequirement(
+            new OpenApiSecurityRequirement
+            {
                 {
-                    Reference = new OpenApiReference
+                    new OpenApiSecurityScheme
                     {
-                        Type = ReferenceType.SecurityScheme,
-                        Id = "Bearer"
-                    }
-                },
-                Array.Empty<string>()
-            }
-        });
+                        Reference =
+                        new OpenApiReference
+                        {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                        }
+                    },
+
+                    Array.Empty<string>()
+                }
+            });
     });
 
-    // 10. Configure CORS
+
+
+    // CORS
     builder.Services.AddCors(options =>
     {
-        options.AddPolicy("DefaultCorsPolicy", policy =>
-        {
-            policy.AllowAnyHeader()
-                  .AllowAnyMethod()
-                  .WithOrigins("http://localhost:3000")
-                  .AllowCredentials();
-        });
+        options.AddPolicy("DefaultCorsPolicy",
+            policy =>
+            {
+                policy
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .WithOrigins(
+                        "http://localhost:3000",
+                        "http://localhost:5173")
+                    .AllowCredentials();
+            });
     });
+
+
 
     var app = builder.Build();
 
-    // ================================
-    // Seed Roles & Default Administrator
-    // ================================
+
+
+    // ===============================
+    // Database Migration + Identity Seed
+    // ===============================
 
     using (var scope = app.Services.CreateScope())
     {
         var services = scope.ServiceProvider;
 
-        var dbContext = services.GetRequiredService<ApplicationDbContext>();
+        var dbContext =
+            services.GetRequiredService<ApplicationDbContext>();
 
-        // Apply any pending migrations
         await dbContext.Database.MigrateAsync();
 
-        var userManager = services.GetRequiredService<UserManager<User>>();
-        var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
 
-        // Seed default roles and admin user
-        await IdentitySeeder.SeedAsync(userManager, roleManager);
+        var userManager =
+            services.GetRequiredService<UserManager<User>>();
+
+        var roleManager =
+            services.GetRequiredService<RoleManager<IdentityRole>>();
+
+
+        await IdentitySeeder.SeedAsync(
+            userManager,
+            roleManager);
     }
 
-    // Configure HTTP pipeline
-    if (app.Environment.IsDevelopment())
+
+
+
+    // ===============================
+    // Swagger (Production Enabled)
+    // ===============================
+
+    app.UseSwagger();
+
+    app.UseSwaggerUI(options =>
     {
-        app.UseSwagger();
+        options.SwaggerEndpoint(
+            "/swagger/v1/swagger.json",
+            "Greenix API v1");
 
-        app.UseSwaggerUI(options =>
-        {
-            options.SwaggerEndpoint("/swagger/v1/swagger.json", "Greenix API v1");
-            options.RoutePrefix = "swagger";
-        });
-    }
+        options.RoutePrefix = "swagger";
+    });
+
+
+
+    // Middleware Pipeline
 
     app.UseMiddleware<ExceptionMiddleware>();
 
@@ -191,15 +247,49 @@ try
 
     app.UseAuthorization();
 
+
+
+    // Controllers
+
     app.MapControllers();
+
+
+
+    // Health Endpoint
 
     app.MapHealthChecks("/health");
 
+
+
+    // Root Endpoint
+
+    app.MapGet("/", () =>
+    {
+        return "Greenix API is running successfully ??";
+    });
+
+
+
+    // Render Port
+
+    var port =
+        Environment.GetEnvironmentVariable("PORT");
+
+    if (!string.IsNullOrEmpty(port))
+    {
+        app.Urls.Add($"http://*:{port}");
+    }
+
+
+
     app.Run();
+
 }
 catch (Exception ex)
 {
-    Log.Fatal(ex, "Application terminated unexpectedly during start-up.");
+    Log.Fatal(
+        ex,
+        "Application terminated unexpectedly during start-up.");
 }
 finally
 {
