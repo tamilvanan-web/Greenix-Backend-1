@@ -1,22 +1,24 @@
-using System;
-using System.Text;
+using Microsoft.EntityFrameworkCore;
+using Greenix.Persistence.Context;
+using Greenix.API.Middlewares;
+using Greenix.Application;
+using Greenix.Domain.Entities;
+using Greenix.Infrastructure;
+using Greenix.Infrastructure.Identity;
+using Greenix.Persistence;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using Greenix.Persistence;
-using Greenix.Infrastructure;
-using Greenix.Application;
-using Greenix.API.Middlewares;
-using Greenix.Domain.Entities;
-using Greenix.Infrastructure.Identity;
+using System;
+using System.Text;
 
 // Setup Bootstrap Logger
 Log.Logger = new LoggerConfiguration()
@@ -28,6 +30,10 @@ try
     Log.Information("Greenix API starting up...");
 
     var builder = WebApplication.CreateBuilder(args);
+
+    Console.WriteLine("===== DATABASE CONNECTION =====");
+    Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
+    Console.WriteLine("===============================");
 
     // 1. Serilog Setup
     builder.Host.UseSerilog((context, services, configuration) => configuration
@@ -142,13 +148,20 @@ try
     // ================================
     // Seed Roles & Default Administrator
     // ================================
+
     using (var scope = app.Services.CreateScope())
     {
         var services = scope.ServiceProvider;
 
+        var dbContext = services.GetRequiredService<ApplicationDbContext>();
+
+        // Apply any pending migrations
+        await dbContext.Database.MigrateAsync();
+
         var userManager = services.GetRequiredService<UserManager<User>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
 
+        // Seed default roles and admin user
         await IdentitySeeder.SeedAsync(userManager, roleManager);
     }
 
