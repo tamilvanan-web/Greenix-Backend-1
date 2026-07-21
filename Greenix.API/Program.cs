@@ -163,20 +163,22 @@ try
 
 
 
+
     // CORS
     builder.Services.AddCors(options =>
     {
-        options.AddPolicy("DefaultCorsPolicy",
-            policy =>
-            {
-                policy
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .WithOrigins(
-                        "http://localhost:3000",
-                        "http://localhost:5173")
-                    .AllowCredentials();
-            });
+        options.AddPolicy("DefaultCorsPolicy", policy =>
+        {
+            policy
+                .WithOrigins(
+                    "http://localhost:3000",
+                    "http://localhost:5173",
+                    "https://greenix-frontend.vercel.app"
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        });
     });
 
 
