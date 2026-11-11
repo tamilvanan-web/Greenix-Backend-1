@@ -27,10 +27,6 @@ try
 
     var builder = WebApplication.CreateBuilder(args);
 
-    Console.WriteLine("===== DATABASE CONNECTION =====");
-    Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
-    Console.WriteLine("===============================");
-
 
     // Serilog
     builder.Host.UseSerilog((context, services, configuration) =>
